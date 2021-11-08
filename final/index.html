@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen Florez-Final </title>
+    <link  rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    
+  
+</head>
+<body>
+
+<!--Navegador-->
+
+    <header class="cd-auto-hide-header">
+        <div class="logo"><a href="#0"><img src="img/Mesa de trabajo 1.png" alt="Karen Florez"></a></div>
+        
+    
+        <nav class="cd-primary-nav">
+            <a href="#cd-navigation" class="nav-trigger">
+                <span>
+                    <em aria-hidden="true"></em>
+                    Menu
+                </span>
+            </a> <!-- .nav-trigger -->
+    
+            <ul id="cd-navigation">
+                <li><a href="index.html">Sobre mi</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="favoritos.html">Mis favoritos</a></li>
+                <li><a href="co">Contacto</a></li>
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header> <!-- .cd-auto-hide-header -->
+
+
+<!--Sobre mi-->
+
+<div class="intro">
+<h1>!Conóceme!</h1>
+    <h2>
+         "El amor, de todas las fuerzas de un universo infinito, hoy decido el amor y me permito ser. Una carta que me recuerde que de todo lo que he aprendido o aprenderé, <i> lo unico que
+         no se puede olvidar es el amor </i> y todas esas cosas que vienen con el. El universo, siempre tan sabio, mostrando y abriendo puertas, dandonos todo lo que no queremos para ayudarnos a crecer
+         y avanzar,regalandonos conocimiento. Hoy agradezco estar aqui y vivo el ahora, hoy lo abrazo todo, hoy lo amo todo, hoy le doy sentido a todo, hoy vale la pena quedarme, hoy vale la pena seguir "
+    </h2>
+
+    <h3> <i> Mi nombre es Karen Florez, tengo 20 años y  soy de la ciudad de Medellin.</i></h3>
+</div>
+
+
+
+
+<!-- Swiper -->
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Junio 2021<img src="img/img1.jpg" /></div>
+          <div class="swiper-slide">San Andres 2020<img src="img/img2.jpg" /></div>
+          <div class="swiper-slide">Dia de playa<img src="img/img3.jpg" /></div>
+          <div class="swiper-slide">Cuarentena<img src="img/img4.jpg" /></div>
+          <div class="swiper-slide">Atardecer<img src="img/img5.jpg" /></div>
+          <div class="swiper-slide">Santa Fe de Antioquia<img src="img/img6.jpg" /></div>
+          <div class="swiper-slide">6 de Septiembre<img src="img/img7.jpg" /></div>
+          <div class="swiper-slide">Una noche de Agosto<img src="img/img8.jpg" /></div>
+          <div class="swiper-slide">Ultimo dia de vacaciones<img src="img/img9.jpg" /></div>
+      </div>
+    </div>
+
+      <!--Javascript-->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<!-- .cd-main-content -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+  
+<!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+    </script>
+
+<footer>
+
+    <h2>!Gracias por visitar mi página!</h2>
+     
+</footer>
+
+</body>
+</html>

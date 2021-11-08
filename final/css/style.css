@@ -1,0 +1,128 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+img{width: 100%;
+height: auto;}
+
+
+.cuerpo{margin:auto; 
+  margin-top: 100px;
+  width: 70%;}
+
+
+/* Slider*/
+
+.swiper {
+  width: 60%;
+  height: 60%;
+}
+
+.swiper-slide {
+  height: 1080%;
+  background: #ff206e;
+  line-height: 100px;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+.swiper-slide:nth-child(2) {
+  background: #fa7921;
+}
+.swiper-slide:nth-child(3) {
+  background: #06d6a0;
+}
+.swiper-slide:nth-child(4) {
+  background: #f0f600;
+}
+.swiper-slide:nth-child(5) {
+  background: #7f00ff;
+}
+.swiper-slide:nth-child(6) {
+  background: #91f861;
+}
+.swiper-slide:nth-child(7) {
+  background: #5046e6;
+}
+
+.swiper-slide:nth-child(8) {
+  background: #07beb8;
+}
+.swiper-slide:nth-child(9) {
+  background: #cc0202;
+}
+
+
+
+
+.galeria{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;}
+  
+  .item {
+    width: 30%;
+    padding: 20px;
+    padding-bottom: 2%; /* Same as width, sets height */
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    position: relative; 
+    text-align: right; 
+  } 
+
+  .item a{color: #64dfdf;}
+
+.logo{margin-top: 15px;
+  margin-bottom: 15px;}
+
+.intro {padding: 10px;
+  margin: 30px;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: #b9faf8;
+  border: 3px solid #ffffff;
+  border-radius: 8px;}
+
+h1{font-size: 60px;}
+h2{color: #07beb8;font-size: 28px;padding: 10px;}
+h3{text-align: right;padding:  10px;}
+h4{text-align: center;font-size: 28px;
+    padding: 15px;}
+
+.video{ padding-left:90px;}
+
+
+.contacto{border: 5px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  background-color: #3AB6AF; 
+  margin:15px;
+  padding: 15px;
+  display:flex;
+  flex-wrap: wrap;}
+            
+    .item {border: 3px solid rgb(255, 255, 255);
+      border-radius: 8px;
+      background-color: #b9faf8;
+      margin: 10px;
+      padding: 10px;
+      flex-basis: 30%;
+      flex-grow: 1;
+      text-align: center;
+      font-size: 20px;
+}
+
+      .item a{color: #ff206e;}
+
+
+.redes{border: 5px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  background-color: #3AB6AF; 
+  margin:20px;
+  padding: 15px;
+  display:flex;
+  flex-wrap: wrap;}
+
+footer{text-align: center;
+      color: #3AB6AF;;
+      background-color: #daffef;
+      margin-top: 20px;}

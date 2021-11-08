@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen Florez-Final</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+<body>
+
+<!--Navegador-->
+
+    <header class="cd-auto-hide-header">
+        <div class="logo"><a href="#0"><img src="img/Mesa de trabajo 1.png" alt="Karen Florez"></a></div>
+    
+        <nav class="cd-primary-nav">
+            <a href="#cd-navigation" class="nav-trigger">
+                <span>
+                    <em aria-hidden="true"></em>
+                    Menu
+                </span>
+            </a> <!-- .nav-trigger -->
+            <ul id="cd-navigation">
+                <li><a href="index.html">Sobre mi</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="favoritos.html">Mis favoritos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header> <!-- .cd-auto-hide-header -->
+
+<div class="cuerpo">
+
+<h4>Te invito a ver este video conmigo ...</h4>
+
+<!--Video-->
+    <div class="video"> 
+        <iframe width="805" height="560" src="https://www.youtube.com/embed/lO8a68dqgbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+    </div>
+
+<!-- .cd-main-content -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+  
+
+<!--Javascript-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    
+<!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+    </script>
+
+</div>
+
+<footer>
+
+    <h2>!Gracias por visitar mi página!</h2>
+     
+</footer>
+
+</body>
+</html>
